@@ -11,7 +11,7 @@ h5,
 h6 {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: georgia, sans-serif;
 }
 
 .clear-fix {
@@ -24,18 +24,30 @@ h6 {
   padding: 0 5%;
 }
 
+.project-entry {
+}
+
+
+#education {
+  padding: 0 20px 0 20px;
+}
+
 h1 {
-  font-size: 40px;
-  color: #f5a623;
+
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: #B8120E;
   line-height: 48px;
   display: inline;
+
 }
 
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #2C2A2A;
   line-height: 29px;
+  font-weight: 200;
   padding: 10px;
 }
 
@@ -49,7 +61,7 @@ h3 {
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4a4a4a;
+  color: #B8120E;
   line-height: 17px;
 }
 
@@ -61,23 +73,44 @@ h5 {
 
 }
 
+#role {
+  color: #48518A;
+}
+
+#topContacts {
+
+}
+
+@media only screen and (max-width: 1129px) {
+  #topContacts li {
+    padding: 10px;
+  }
+}
+
 
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #4A4D63;
   line-height: 16px;
   float: left;
+}
+
+.project__date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #4A4D63;
+  line-height: 16px;
 }
 
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #4A4D63;
   line-height: 16px;
   float: right;
-
 }
+
 
 p {
   font-size: 14px;
@@ -86,7 +119,7 @@ p {
 }
 
 a {
-  color: #1199c3;
+  color: #0E1A5D;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -95,25 +128,28 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
+  font-weight: 200;
   color: #f3f3f3;
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #B8120E;
   display: none;
+  font-weight: 200;
 }
 
 .orange {
-  background-color: #f5ae23;
+  #B8120E;
+  background-color: #B8120E;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #B8120E;
 }
 
 .white-text {
-  font-weight: bold;
+  font-weight: 200;
   color: #fff;
 }
 
@@ -127,9 +163,8 @@ a {
   background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #2C2A2A;
 }
 
 .flex-box {
@@ -173,6 +208,14 @@ span {
 
 #lets-connect {
   text-align: center;
+}
+
+#footerContacts {
+  background-color: #2C2A2A
+}
+
+#footerContacts li {
+  padding: 5px;
 }
 
 /* Media queries to handle various device widths */
